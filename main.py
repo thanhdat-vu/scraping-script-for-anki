@@ -32,8 +32,8 @@ for li in li_elements:
 
     word_object = {"word": word,"pronunciation": pronunciation, "link": link}
     words_list.append(word_object)
-    if len(words_list) >= 5000:
-        break
+    # if len(words_list) >= 5000:
+    #     break
 
 # Print the list of word objects
 # print(words_list)
